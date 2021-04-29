@@ -42,39 +42,3 @@ main {
 .main-header__item a.active {
     color: #5402a1;
 }
-
-.product-form{
-    width: 20rem;
-    max-width: 90%;
-    margin: auto;
-}
-.form-control label,
-.form-control input{
-    display: block;
-    width: 100%;
-}
-
-.form-control{
-    margin: 1rem 0;
-}
-
-.form-control input{
-    border: 1px solid #dbc441;
-    font: inherit;
-    border-radius: 2px;
-}
-
-button{
-    font: inherit;
-    border:1px solid #5402a1;
-    border-radius: 3px;
-    color: #5402a1;
-    background-color: white;
-    cursor: pointer;
-}
-
-button:hover,
-button:active{
-    background-color: #5402a1;
-    color: white;
-}
