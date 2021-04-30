@@ -3,15 +3,19 @@ const router = express.Router();
 const path = require("path");
 const rootDir = require('../utils/path');
 
+const products = [];
+
 // /admin/add-product => GET
-router.get('/add-product',(req, res, next) => {
-    res.sendFile(path.join(rootDir.rootDir1 , 'views', 'add-product.html'));
+router.get('/add-product', (req, res, next) => {
+    res.render('add-product', {docTitle: 'Add Product', path: '/admin/add-product'});
 });
 
 // /admin/add-product => POST
-router.post('/add-product',(req, res, next)=>{
-    console.log(req.body);
+router.post('/add-product', (req, res, next) => {
+    const localStore = [];
+    products.push({ title: req.body.title });
     res.redirect('/');
 });
 
-module.exports = router;
+exports.routes = router;
+exports.products = products;

@@ -1,22 +1,30 @@
 const express = require('express');
-const app = express();
 const bodyParser = require('body-parser');
 const path = require('path');
-const rootDir = require('./utils/path');
+const expressHbs = require('express-handlebars');
 
-const adminRoutes = require('./routes/admin.route')
+const app = express();
+
+
+const adminData = require('./routes/admin.route')
 const shopRoutes = require('./routes/shop.route');
-const { rootDir1 } = require('./utils/path');
+
+//app.set('view engine', 'pug');
+app.engine('hbs', expressHbs());
+app.locals.layout = false;
+app.set('view engine', 'hbs')
+
+app.set('views', 'views')
 
 app.use(bodyParser.urlencoded({extended: false}));
 app.use(express.static(path.join(__dirname, 'public')));
 
 //filtering paths
-app.use('/admin',adminRoutes);
+app.use('/admin',adminData.routes);
 app.use(shopRoutes);
 
 app.use((req, res, next)=>{
-    res.status(404).sendFile(path.join( rootDir.rootDir1, 'views', '404.html'));
+    res.render('404', {docTitle: '404 Not Found'});
 })
 
 app.listen(3000);
