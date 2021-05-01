@@ -1,10 +1,11 @@
-### NodeJS - The Complete Guide (incl. MVC, REST APIs, GraphQL)
+### NodeJS - Following Tutorials (MVC, REST APIs, GraphQL)
 ---
-#### Lectures
+#### Contents
 
- 1. [Working with Express.js](#lecture-5)
- 2. [Template Engines](#lecture-6)
- 3. [Model View Controller (MVC)](#lecture-7)
+ 5. [Working with Express.js](#lecture-5)
+ 6. [Template Engines](#lecture-6)
+ 7. [Model View Controller (MVC)](#lecture-7)
+ 8. [Optional Enhancing the app](#lecture-8)
 ---
 #### Lecture-5
 *Working with Express.js*
@@ -20,6 +21,7 @@
  10. Filter paths
  11. Creating HTML pages
  12. Serve HTML pages 
+***[<< Back to Contents](#contents)***
  ---
 #### Lecture-6
 *Template Engines*
@@ -27,9 +29,15 @@
  1. Pug
  2. Handlebars
  3. EJS
+ ***[<< Back to Contents](#contents)***
 
 ---
 #### Lecture-7
 *Model View Controller (MVC)*
 
  1. What is the MVC
+ 2. Adding Controller
+ 3. Adding Model
+ 4. Storing data in file via the model
+ 5. Fetching data from file via the model
+ ***[<< Back to Contents](#contents)***
