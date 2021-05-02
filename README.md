@@ -1,4 +1,4 @@
-### NodeJS - Following Tutorials (MVC, REST APIs, GraphQL)
+### NodeJS - The Complete (MVC, REST APIs, GraphQL)
 ---
 #### Contents
 
@@ -29,7 +29,7 @@
  1. Pug
  2. Handlebars
  3. EJS
- ***[<< Back to Contents](#contents)***
+***[<< Back to Contents](#contents)***
 
 ---
 #### Lecture-7
@@ -40,4 +40,14 @@
  3. Adding Model
  4. Storing data in file via the model
  5. Fetching data from file via the model
- ***[<< Back to Contents](#contents)***
+
+***[<< Back to Contents](#contents)***
+ ---
+#### Lecture-8
+*Optional Enhancing the app*
+***[<< Back to Contents](#contents)***
+
+#### Lecture-9
+*Dynamic Routers & Advanced Models*
+ 1. Adding the ID to the path
+***[<< Back to Contents](#contents)***
