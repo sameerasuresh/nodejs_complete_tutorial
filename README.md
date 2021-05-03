@@ -50,4 +50,7 @@
 #### Lecture-9
 *Dynamic Routers & Advanced Models*
  1. Adding the ID to the path
+ 2. Extracting Dynamic Params
+ 3. Passing data with POST request
+ 4. Using Query Params
 ***[<< Back to Contents](#contents)***
