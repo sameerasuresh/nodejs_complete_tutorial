@@ -73,4 +73,15 @@
 #### Lecture-11
 *Understanding Sequelize (ORM)*
  1. What is Sequelize
+ 2. Connecting to the Database
+ 3. Defining Model
+ 4. Syncing Js Definitions to the database
+ 5. Insert Data
+ 6. Retrieving data
+ 7. Where conditions
+ 8. Update data
+ 9. Delete product
+ 10. One to Many relationship
+ 11. Many to Many relationship
+ 12. Using Magic Association methods 
 ***[<< Back to Contents](#contents)***
