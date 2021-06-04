@@ -12,6 +12,8 @@
  9. [Dynamic Routers and Advanced Models](#lecture-9)
  10. [SQL introduction](#lecture-10) 
  11. [Understanding Sequelize (ORM)](#lecture-11)
+ 12. [Working with NoSQL & using mongoDB](#lecture-12)
+ 13. [Working with Mongoose](#lecture-13)
 ---
 #### Lecture-5
 *Working with Express.js*
@@ -84,4 +86,35 @@
  10. One to Many relationship
  11. Many to Many relationship
  12. Using Magic Association methods 
+***[<< Back to Contents](#contents)***
+ ---
+#### Lecture-12
+*Working with NoSQL & mongoDB*
+ 1. what monogoDB
+ 2. Relations in NoSQL
+ 3. Setting up monogoDB
+ 4. Install mongoDB driver
+ 5. create a database connection
+ 6. Fetch data
+ 7. create data
+ 8. update data
+ 9. delete data
+ 10. Query 
+***[<< Back to Contents](#contents)***
+ ---
+#### Lecture-13
+*Working with Mongoose*
+ 1. What is Mongoose
+ 2. Connecting to the mongoDB server with Mongoose
+ 3. Create Schema
+ 4. Save data through mongoose
+ 5. Fetching all data
+ 6. Fetching single data
+ 7. Update data
+ 8. Delete data
+ 9. connect User model into request
+ 10. Use Relations in Mongoose
+ 11. Important things about fetching data (populate, select)
+ 12. custom instance methods in Model
+ 13. Practices with mongoose
 ***[<< Back to Contents](#contents)***
