@@ -14,6 +14,7 @@
  11. [Understanding Sequelize (ORM)](#lecture-11)
  12. [Working with NoSQL & using mongoDB](#lecture-12)
  13. [Working with Mongoose](#lecture-13)
+ 14. [Sessions & Cookies](#lecture-14)
 ---
 #### Lecture-5
 *Working with Express.js*
@@ -102,7 +103,7 @@
  10. Query 
 ***[<< Back to Contents](#contents)***
  ---
-#### Lecture-13
+#### Lecture-1
 *Working with Mongoose*
  1. What is Mongoose
  2. Connecting to the mongoDB server with Mongoose
@@ -117,4 +118,22 @@
  11. Important things about fetching data (populate, select)
  12. custom instance methods in Model
  13. Practices with mongoose
+***[<< Back to Contents](#contents)***
+ ---
+#### Lecture-14
+*Sessions & Cookies*
+ 1. What is a Cookie
+ 2. Setting Cookie
+ 3. Manipulating Cookie
+ 4. Configure Cookie
+ 5. What is a Session
+ 6. Initializing the session middleware (npm i express-session)
+ 7. Using the session middleware
+ 8. Using mongoDB to store sessions (npm i connect-mongodb-session)
+ 9. Delete cookie 
+***[<< Back to Contents](#contents)***
+ ---
+#### Lecture-number
+*title*
+ 1. head
 ***[<< Back to Contents](#contents)***
