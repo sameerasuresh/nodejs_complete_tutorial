@@ -140,8 +140,9 @@
  2. How to Authentication implemented
  3. Implement the authentication flow
  4. Encrypting password (npm i --save bcryptjs)
- 5. Signin function
- 6. Working on route protection (Auth guard middleware)
- 7. CSRF Protection (npm i --save csurf)
- 8. Flash error message (npm i --save connect-flash)
+ 5. SignUp function
+ 6. Signin function
+ 7. Working on route protection (Auth guard middleware)
+ 8. CSRF Protection (npm i --save csurf)
+ 9. Flash error message (npm i --save connect-flash)
 ***[<< Back to Contents](#contents)***
