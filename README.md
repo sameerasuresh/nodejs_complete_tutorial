@@ -15,6 +15,7 @@
  12. [Working with NoSQL & using mongoDB](#lecture-12)
  13. [Working with Mongoose](#lecture-13)
  14. [Sessions & Cookies](#lecture-14)
+ 15. [Adding Authentication](#lecture-15)
 ---
 #### Lecture-5
 *Working with Express.js*
@@ -133,7 +134,14 @@
  9. Delete cookie 
 ***[<< Back to Contents](#contents)***
  ---
-#### Lecture-number
-*title*
- 1. head
+#### Lecture-15
+*Adding authentication*
+ 1. What is Authentication
+ 2. How to Authentication implemented
+ 3. Implement the authentication flow
+ 4. Encrypting password (npm i --save bcryptjs)
+ 5. Signin function
+ 6. Working on route protection (Auth guard middleware)
+ 7. CSRF Protection (npm i --save csurf)
+ 8. Flash error message (npm i --save connect-flash)
 ***[<< Back to Contents](#contents)***
