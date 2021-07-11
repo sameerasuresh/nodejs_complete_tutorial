@@ -16,6 +16,8 @@
  13. [Working with Mongoose](#lecture-13)
  14. [Sessions & Cookies](#lecture-14)
  15. [Adding Authentication](#lecture-15)
+ 16. [Sending Emails](#lecture-16)
+ 17. [Advanced Authentication](#lecture-17)
 ---
 #### Lecture-5
 *Working with Express.js*
@@ -140,9 +142,21 @@
  2. How to Authentication implemented
  3. Implement the authentication flow
  4. Encrypting password (npm i --save bcryptjs)
- 5. SignUp function
- 6. Signin function
- 7. Working on route protection (Auth guard middleware)
- 8. CSRF Protection (npm i --save csurf)
- 9. Flash error message (npm i --save connect-flash)
+ 5. Signin function
+ 6. Working on route protection (Auth guard middleware)
+ 7. CSRF Protection (npm i --save csurf)
+ 8. Flash error message (npm i --save connect-flash)
+***[<< Back to Contents](#contents)***
+ ---
+#### Lecture-16
+*Sending Emails*
+ 1. How does sending emails work
+ 2. Using Nodemailer to send an email (npm i --save nodemailer)
+***[<< Back to Contents](#contents)***
+ ---
+#### Lecture-17
+*Advanced Authentication*
+ 1. Resetting password
+ 2. Implement token base authentication
+ 3. adding authorization
 ***[<< Back to Contents](#contents)***
