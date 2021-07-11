@@ -7,6 +7,7 @@
  * npm i --save csurf (CSRF token)
  * npm i --save connect-flash (save values in session temporary)
  * npm i --save nodemailer (to send emails)
+ * npm i --save express-validator (validation)
  */
 
 const express = require('express');
@@ -27,7 +28,6 @@ const shopRoutes = require('./routes/shop.route');
 const authRoutes = require('./routes/auth.route');
 //controllers
 const errorController = require('./controllers/errors.controller');
-
 
 //const
 MONGODB_URI = 'mongodb://127.0.0.1:27017/test?gssapiServiceName=mongodb';

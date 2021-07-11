@@ -18,6 +18,7 @@
  15. [Adding Authentication](#lecture-15)
  16. [Sending Emails](#lecture-16)
  17. [Advanced Authentication](#lecture-17)
+ 18. [Understanding Validation](#lecture-18)
 ---
 #### Lecture-5
 *Working with Express.js*
@@ -160,3 +161,22 @@
  2. Implement token base authentication
  3. adding authorization
 ***[<< Back to Contents](#contents)***
+ ---
+#### Lecture-18
+*Understanding validation*
+ 1. Why should we use validation
+ 2. How to validate input
+ 3. Setup & Basic validation (npm i --save express-validator)
+ 4. Using validation error message
+ 5. Build-in and custom validation
+ 6. More validation
+ 7. Checking for field equality
+ 8. Adding async validation
+ 9. Sanitizing data
+***[<< Back to Contents](#contents)***
+ ---
+#### Lecture-number
+*head*
+ 1. title
+***[<< Back to Contents](#contents)***
+
