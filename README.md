@@ -19,6 +19,8 @@
  16. [Sending Emails](#lecture-16)
  17. [Advanced Authentication](#lecture-17)
  18. [Understanding Validation](#lecture-18)
+ 19. [Error handling](#lecture-19)
+ 20. [File upload and download](#lecture-20)
 ---
 #### Lecture-5
 *Working with Express.js*
@@ -107,7 +109,7 @@
  10. Query 
 ***[<< Back to Contents](#contents)***
  ---
-#### Lecture-1
+#### Lecture-13
 *Working with Mongoose*
  1. What is Mongoose
  2. Connecting to the mongoDB server with Mongoose
@@ -175,8 +177,27 @@
  9. Sanitizing data
 ***[<< Back to Contents](#contents)***
  ---
-#### Lecture-number
-*head*
- 1. title
+#### Lecture-19
+*Error handling*
+ 1. Type of error handling
+ 2. Throwing errors in code
+ 3. Returning error pages
+ 4. Error handling middleware
+ 5. Status codes
 ***[<< Back to Contents](#contents)***
-
+ ---
+#### Lecture-20
+*File upload and download*
+ 1. Handling Multipart form data
+ 2. Handling file uploads with Multer (npm i --save multer)
+ 3. Configuring multer to adjust filename and fileapth
+ 4. Filtering files by memetype
+ 5. Storing file data to database
+ 6. Serving images statically
+ 7. Download files with authentication
+ 8. setting file type header
+ 9.  Restrict file access
+ 10. Streaming data vs Preloading data
+ 11. Using PDFKit for pdf generation (npm i --save pdfkit)
+ 12. Deleting files
+***[<< Back to Contents](#contents)***
