@@ -19,23 +19,7 @@ const path = require('path');
 const csrf = require('csurf');
 const flash = require('connect-flash');
 
-const scheduler = require('./lib/scheduler');
 //multer
-let count = 0
-let notSleep = true
- const s1 = scheduler.recurrence({sec: 1}, () => {
-    count += 1;
-    console.log('term',count);
-    if(count >= 5 && notSleep){
-        s1.stop();
-        notSleep = false;
-        s1.start();
-    }
-    if(count >= 10){
-       s1.stop();
-    }
-})
-s1.start()
 const multer = require('multer');
 //mongoose
 const mongoose = require('mongoose');

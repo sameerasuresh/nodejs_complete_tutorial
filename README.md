@@ -21,6 +21,7 @@
  18. [Understanding Validation](#lecture-18)
  19. [Error handling](#lecture-19)
  20. [File upload and download](#lecture-20)
+ 21. [Pagination](#lecture-21)
 ---
 #### Lecture-5
 *Working with Express.js*
@@ -201,3 +202,19 @@
  11. Using PDFKit for pdf generation (npm i --save pdfkit)
  12. Deleting files
 ***[<< Back to Contents](#contents)***
+ ---
+#### Lecture-21
+*Pagination*
+ 1. Adding pagination links
+ 2. Retrieve chunk of data
+ 3. Preparing pagination data on the server
+ 4. Dynamic pagination buttons
+ 5. Re-using the pagination logic and controls
+ 6. Thirdpary library (npm i --save mongoose-paginate-v2)
+***[<< Back to Contents](#contents)***
+ ---
+#### Lecture-number
+*head*
+ 1. title
+***[<< Back to Contents](#contents)***
+

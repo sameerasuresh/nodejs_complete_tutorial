@@ -1,0 +1,1 @@
+exports.DefaultError = require('./errors.response').DefaultError;
