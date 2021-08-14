@@ -1,0 +1,1 @@
+exports.feed = require('./feed.route');

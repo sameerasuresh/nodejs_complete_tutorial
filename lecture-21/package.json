@@ -1,12 +1,12 @@
 {
   "name": "number2",
   "version": "0.0.1",
-  "description": "complete Node.js Guide",
+  "description": "complete Node.js Guide", 
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon app.js",
-    "serve": "node app.js"
+    "start": "node app.js",
+    "serve": "nodemon app.js env=prod port=2000"
   },
   "author": "Suresh Sameera",
   "license": "ISC",

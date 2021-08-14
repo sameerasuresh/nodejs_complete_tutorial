@@ -72,12 +72,12 @@ const fileFilter = (req, file, cb) => {
 
 
 
-app.set('view engine', 'ejs');
+app.set('view engine', 'ejs'); 
 
 app.set('views', 'views')
 
 app.use(bodyParser.urlencoded({ extended: false }));
-app.use(multer({storage: fileStorage, fileFilter: fileFilter}).single('image'));
+app.use(multer({storage: fileStorage, fileFilter: fileFilter, limits: {fileSize: 102400}}).single('image'));
 app.use(express.static(path.join(__dirname, 'public')));
 app.use('/images',express.static(path.join(__dirname, 'images')))
 
@@ -136,12 +136,14 @@ mongoose.connect(MONGODB_URI)
         const listener = app.listen(3000);
         //console.log(result);
         console.log('\x1b[32m','----------------------------------------------------------------');
-        console.log(`Your server available: http://localhost:${listener.address().port}`);
+        console.log(`You server available: http://localhost:${listener.address().port}`);
         console.log('\x1b[32m','----------------------------------------------------------------','\x1b[0m');
     })
     .catch(err => {
         console.log(err);
     })
+
+
 
 
 
