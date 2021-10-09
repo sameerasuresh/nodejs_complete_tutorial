@@ -1,11 +1,11 @@
 {
     "configurations": [
         {
-            "command": "npm run debug",
+            "type": "node-terminal",
             "name": "Debug App",
             "request": "launch",
-            "type": "node-terminal",
-            "cwd": "${workspaceFolder}"
+            "command": "npm run debug",
+            "cwd": "${workspaceFolder}",
         }
     ]
 }
